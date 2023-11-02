@@ -1,4 +1,4 @@
-# Microsoft Defender for Identity Instance Checker (Python Port)
+# PyDefenderIdentityChecker - Microsoft Defender for Identity Instance Checker (Python Port)
 
 This repository contains the Python port of the original PowerShell script "Microsoft Defender for Identity Instance Checker" developed by R. Roethof (Thalpius). The original PowerShell script is designed to check if there is a Microsoft Defender for Identity instance created by getting all accepted domains in Microsoft 365 using autodiscover, getting the tenant name, and checking if there is a Microsoft Defender for Identity instance. This Python port aims to provide the same functionality for users who prefer Python or need to integrate this check into a Python-based environment.
 
@@ -19,7 +19,7 @@ This Python port was developed to provide an alternative for those who prefer Py
 To use this Python port, you need Python 3 installed on your system. You can then run the script in a terminal or command prompt:
 
 ```bash
-python3 mdi_instance_checker.py
+python3 PyDefenderIdentityChecker.py
 ```
 
 You will be prompted to enter a domain name, and the script will perform the necessary checks to determine if a Microsoft Defender for Identity instance is running.
